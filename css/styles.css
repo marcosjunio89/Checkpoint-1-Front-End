@@ -103,15 +103,43 @@ header nav a {
 
 .conteudo h2 {
     margin-top: 28px;
-
+    font-size: 25px;
+    margin-left: 123px;
+    margin-right: 770px;
+    margin-bottom: 18.5px;
 }
 
 .conteudo div {
-    background-color: rgb(155, 20, 20);
+    background-color: #C4C4C4;
     width: 335px;
     height: 534px;
     margin: 18px;
     border-radius: 35px;
+    margin-top: 18.5px;
+}
+
+.caixa1 {
+    background-image: url(/img/zero.jpg);
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.caixa2 {
+    background-image: url(/img/dois.jpg);
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.caixa3 {
+    background-image: url(/img/um.jpg);
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center
 }
 
 /* video */
@@ -163,6 +191,7 @@ footer h2 {
     width: fit-content;
     align-self: center;
     margin-top: 24px;
+    font-size: 64px;
 }
 
 footer a img{
@@ -202,12 +231,23 @@ footer a img{
         margin-bottom: 233px;
     }
 
+    .video iframe {
+        border-radius: 36px;
+        width: 1077px;
+        height: 534px;
+        margin: 18px;
+    }
+
     footer {
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
     }
     
+    footer h2 {
+        font-size: 64px;
+    }
+
     .rodape {
         width: 100%;
         margin-left: 76px;
@@ -218,4 +258,18 @@ footer a img{
         margin-right: 121.5px;
     }
 
+}
+
+@media (max-width: 725px) {
+    
+    .banner{
+        display: none;
+    }
+    
+    .video iframe {
+        border-radius: 36px;
+        width: 335px;
+        height: 534px;
+        margin: 18px;
+    }
 }
