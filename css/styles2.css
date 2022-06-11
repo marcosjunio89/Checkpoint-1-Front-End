@@ -18,10 +18,11 @@ body, html {
     margin: 0px;
     flex-direction: column;
     font-family: 'roboto';
+    scroll-behavior: smooth;
 }
 
 body {
-    background-image: url('/img/rio.jpeg');
+    background-image: url('/img/rj1.jpg');
 }
 
 /*  Header */
@@ -29,7 +30,7 @@ body {
 header {
     width: 100%;
     display: flex;
-    background-color: #C4C4C4;
+    background-color: #030303;
     justify-content: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -40,13 +41,14 @@ header {
     margin-bottom: 12px;
     width: 340px;
     height: 140px;
-    background-color: #C4C4C4;
+    background-color: #000000;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 36px;
     font-family: 'roboto-condensed';
-    border: solid 1px black;
+    border: solid 1px rgb(255, 255, 255);
     font-style: normal;
     font-weight: 100px;
     font-size: 25px;
@@ -62,16 +64,16 @@ header nav {
 
 header nav a {
     text-decoration: solid;
-    color: #000000;
+    color: #ffffff;
     margin: 12px;
-    background-color: #C4C4C4;
+    background-color: #000000;
     width: 197px;
     height: 82px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 36px;
-    border: solid 1px black;
+    border: solid 1px rgb(255, 255, 255);
     font-style: normal;
     font-weight: 100px;
     font-size: 22px;
@@ -85,20 +87,26 @@ header nav a {
 .banner {
     width: 100%;
     height: 532px;
-    background-image: url(/img/rj.jpg);
+    background-image: url(/img/1052781.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1280px;
+    
 }
 
 section p {
     margin-top: 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: fit-content;
+    font-size: 25px;
 }
 
 .p-negrito {
     font-weight: bolder;
 }
 
+/* banner */
 /* conteudo */
 
 .conteudo {
@@ -110,10 +118,11 @@ section p {
 
 .conteudo h2 {
     margin-top: 28px;
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 123px;
     margin-right: 770px;
     margin-bottom: 18.5px;
+    color: white;
 }
 
 .conteudo div {
@@ -174,11 +183,12 @@ h2 {
 
 footer {
     width: 100%;
+    height: 795px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #C4C4C4;;
+    background-color: #000000;;
 }
 
 footer a {
@@ -187,8 +197,7 @@ footer a {
     justify-content: center;
     text-align: center;
     text-decoration: solid;
-    color: black;
-    margin-bottom: 100px;
+    color: rgb(255, 255, 255);
     width: fit-content;
     flex-direction: column;
 }
@@ -199,22 +208,20 @@ footer h2 {
     align-self: center;
     margin-top: 24px;
     font-size: 64px;
+    color: white;
+    margin-top: 33px;
+    font-weight: 400px;
+    font-style: normal;
 }
 
 footer a img{
     width: 141px;
     height: 141px;
     border-radius: 100%;
+    border: solid 5px gray;
 }
 
-.rodape {
-    font-weight: 400px;
-    font-style: normal;
-    font-size: 64px;
-    margin-bottom: 55px;
-    margin-top: 33px;
-}
-
+/* footer */
 /* desktop */
 
 @media (min-width: 426px) {
@@ -222,6 +229,8 @@ footer a img{
     header {
         align-items: center;
         justify-content: space-evenly;
+        width: 100%;
+        height: 213px;
     }
 
     header nav {
@@ -249,6 +258,7 @@ footer a img{
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
+        height: 414px;
     }
     
     footer h2 {
@@ -266,7 +276,8 @@ footer a img{
     }
 
 }
-
+/* desktop */
+/* mobile */
 @media (max-width: 725px) {
     
     .banner{
@@ -280,3 +291,4 @@ footer a img{
         margin: 18px;
     }
 }
+/* mobile */
