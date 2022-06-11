@@ -12,7 +12,8 @@ a {
     color: black;
 }
 
-body, html {
+body,
+html {
     display: flex;
     height: 100%;
     margin: 0px;
@@ -49,7 +50,7 @@ header {
     border-radius: 50px;
 }
 
-.logo::before{
+.logo::before {
     content: '';
     position: absolute;
     width: 340px;
@@ -58,7 +59,7 @@ header {
     animation: animate 6s linear infinite;
 }
 
-.logo::after{
+.logo::after {
     content: '';
     position: absolute;
     inset: 4px;
@@ -66,7 +67,7 @@ header {
     border-radius: 50px;
 }
 
-.logo h1{
+.logo h1 {
     position: relative;
     color: #ffffff;
     font-size: 50px;
@@ -75,10 +76,11 @@ header {
 }
 
 @keyframes animate {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
@@ -123,7 +125,7 @@ header nav a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1280px;
-    
+
 }
 
 section p {
@@ -220,7 +222,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000000;;
+    background-color: #000000;
+    ;
 }
 
 footer a {
@@ -246,7 +249,7 @@ footer h2 {
     font-style: normal;
 }
 
-footer a img{
+footer a img {
     width: 141px;
     height: 141px;
     border-radius: 100%;
@@ -269,11 +272,11 @@ footer a img{
         display: flex;
         flex-direction: row;
     }
-    
+
     .conteudo h2 {
         margin-top: 98px;
     }
-    
+
     .video {
         margin-top: 28px;
         margin-bottom: 233px;
@@ -292,7 +295,7 @@ footer a img{
         flex-wrap: wrap;
         height: 414px;
     }
-    
+
     footer h2 {
         font-size: 64px;
     }
@@ -308,14 +311,15 @@ footer a img{
     }
 
 }
+
 /* desktop */
 /* mobile */
 @media (max-width: 725px) {
-    
-    .banner{
+
+    .banner {
         display: none;
     }
-    
+
     .video iframe {
         border-radius: 36px;
         width: 335px;
@@ -323,4 +327,5 @@ footer a img{
         margin: 18px;
     }
 }
+
 /* mobile */
