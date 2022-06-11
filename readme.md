@@ -1,0 +1,3 @@
+Seguindo as orientacoes do checkpoint de front end, colocando todo o html em reponsivo para mobile e desktop, o projeto em si foi iniciado pelo modo "mobile fist", desse modo "foi ate que prazeroso e mais facil de comecar", com algumas dificuldade em por tudo alinhado e centralizado, mas nada como algumas horas treinando que nao foi possivel resolver.
+como ideia coloquei um termo que nos carioca utilizamos muito o "021" como background nos card.
+e uma forma de chamar atencao coloquei uma animacao na borda do titulo, dando efeito de looping, e as barras de navegacao com 2 cores ao lado.
