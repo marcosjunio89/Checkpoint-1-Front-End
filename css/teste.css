@@ -91,9 +91,20 @@ header nav {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+
+
+    animation: flutuacao 5s ease-in-out infinite;
 }
 
+@keyframes flutuacao {
+    0%, 100% {
+        transform: translateY(30px);
+    }
 
+    50% {
+        transform: translateY(-30px);
+    }
+}
 
 header nav a {
     text-decoration: solid;
@@ -157,6 +168,20 @@ section p {
     margin-right: 770px;
     margin-bottom: 18.5px;
     color: white;
+}
+
+.conteudo div {
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all  0.3s;
+    transition: all 0.3s;
+}
+
+.conteudo div:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .conteudo div {
