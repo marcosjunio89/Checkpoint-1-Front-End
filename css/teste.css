@@ -170,7 +170,8 @@ section p {
     color: white;
 }
 
-.conteudo div {
+/* separei os efeito pois deu conflito com o video */
+.caixa1 {
     overflow: hidden;
     max-width: 100%;
     -moz-transition: all 0.3s;
@@ -178,13 +179,43 @@ section p {
     transition: all 0.3s;
 }
 
-.conteudo div:hover {
+.caixa1:hover {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.conteudo div {
+.caixa2 {
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all  0.3s;
+    transition: all 0.3s;
+}
+
+.caixa2:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.caixa3 {
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all  0.3s;
+    transition: all 0.3s;
+}
+
+.caixa3:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/* separei os efeito pois deu conflito com o video */
+
+/* separei os card pois estava dando conflito com o video */
+.caixa1 {
     background-color: #C4C4C4;
     width: 335px;
     height: 534px;
@@ -192,6 +223,25 @@ section p {
     border-radius: 35px;
     margin-top: 18.5px;
 }
+
+.caixa2 {
+    background-color: #C4C4C4;
+    width: 335px;
+    height: 534px;
+    margin: 18px;
+    border-radius: 35px;
+    margin-top: 18.5px;
+}
+
+.caixa3 {
+    background-color: #C4C4C4;
+    width: 335px;
+    height: 534px;
+    margin: 18px;
+    border-radius: 35px;
+    margin-top: 18.5px;
+}
+/* separei cada cards pois estava  dando conflito com o video */
 
 .caixa1 {
     background-image: url(/img/zero.jpg);
@@ -351,6 +401,73 @@ footer a img {
         height: 534px;
         margin: 18px;
     }
+
+    footer a img {
+        align-self: center;
+    }
+
+    /* separei os efeito pois deu conflito com o video */
+.caixa1 {
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all  0.3s;
+    transition: all 0.3s;
 }
 
+.caixa1:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.caixa2 {
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all  0.3s;
+    transition: all 0.3s;
+}
+
+.caixa2:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.caixa3 {
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all  0.3s;
+    transition: all 0.3s;
+}
+
+.caixa3:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    animation: flutuacao 5s ease-in-out infinite;
+}
+
+@keyframes flutuacao {
+    0%, 100% {
+        transform: translateX(30px);
+    }
+
+    50% {
+        transform: translateX(-30px);
+    }
+}
+/* separei os efeito pois deu conflito com o video */
+}
 /* mobile */
