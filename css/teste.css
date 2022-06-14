@@ -244,7 +244,7 @@ section p {
 /* separei cada cards pois estava  dando conflito com o video */
 
 .caixa1 {
-    background-image: url(/img/zero.jpg);
+    background-image: url('https://github.com/marcosjunio89/Checkpoint-1-Front-End/blob/main/img/zero.jpg?raw=true');
     background-size: 380px;
     background-repeat: no-repeat;
     background-position: center;
@@ -252,7 +252,7 @@ section p {
 }
 
 .caixa2 {
-    background-image: url(/img/dois.jpg);
+    background-image: url('https://github.com/marcosjunio89/Checkpoint-1-Front-End/blob/main/img/dois.jpg?raw=true');
     background-size: 380px;
     background-repeat: no-repeat;
     background-position: center;
@@ -260,7 +260,7 @@ section p {
 }
 
 .caixa3 {
-    background-image: url(/img/um.jpg);
+    background-image: url('https://github.com/marcosjunio89/Checkpoint-1-Front-End/blob/main/img/um.jpg?raw=true');
     background-size: 380px;
     background-repeat: no-repeat;
     background-position: center;
